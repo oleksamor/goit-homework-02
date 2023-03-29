@@ -30,7 +30,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 a {
   color: currentColor;
@@ -59,13 +59,33 @@ a {
 .list {
   list-style: none;
 }
+.address-phone-mail {
+}
+.contact-mail,
+.contact-phone {
+  font-style: normal;
+  color: var(--text-color);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--pressed-state-color);
+}
 
 .header-item {
 }
 .link {
   text-decoration: none;
 }
+
 .menu-link {
+  font-weight: 500px;
+  color: var(--dark-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--pressed-state-color);
 }
 .phone-mail {
 }
