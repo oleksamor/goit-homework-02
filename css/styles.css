@@ -1,0 +1,156 @@
+:root {
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-color: #2e2f42;
+  --success-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --modal-overlay-color: #f4f4fd;
+  --hero-background-color: rgba(46, 47, 66, 0.7);
+  --white-background: #fff;
+  --modal-background: #fcfcfc;
+
+  --primary-font: "Roboto";
+  --secondary-font: "Raleway";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  background-color: var(--white-background);
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02;
+}
+a {
+  color: currentColor;
+}
+
+.logotype {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800px;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+  width: 115px;
+  height: 24px;
+  left: 156px;
+  top: 24px;
+  padding: 0px;
+}
+.studio-color {
+  color: var(--dark-color);
+}
+.studio-color-footer {
+  color: var(--modal-overlay-color);
+}
+.list {
+  list-style: none;
+}
+
+.header-item {
+}
+.link {
+  text-decoration: none;
+}
+.menu-link {
+}
+.phone-mail {
+}
+.address-phone-mail {
+}
+.menu-contacts {
+}
+.contacts-item {
+}
+.contact-mail {
+}
+.contact-phone {
+}
+
+/**
+  |============================
+  | Hero
+  |============================
+*/
+.hero {
+  background-color: var(--dark-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white-background);
+}
+
+.hero-button {
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+  background: var(--primary-brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.footer-content {
+  background-color: var(--dark-color);
+}
+.footer-text {
+  color: #ffffff;
+}
+/* ========= thumba ========= */
+.thumba {
+}
+.item-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.item-txt {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.thumba-btn {
+  padding: 12px 24px;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  background-color: var(--modal-overlay-color);
+  font-family: var(--primary-font), sans-serif;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  cursor: pointer;
+}
+.thumba-btn:hover,
+.thumba-btn:focus {
+  background-color: var(--pressed-state-color);
+  color: #ffffff;
+}
+
+/* ========= /thumba ========= */
+
+/**
+  |============================
+  | etjukul
+  |============================
+*/

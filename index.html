@@ -5,76 +5,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>STUDIO</title>
+
+    <!-- фонти -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" />
+
+    <!-- нормализатор -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+
 </head>
 
 <body>
     <!-- header  -->
     <header>
         <!-- logo -->
-        <nav>
-            <a href="./index.html">WebStudio</a>
+        <nav class="page-nav">
+            <!-- logo -->
+            <a class="logotype link" href="./index.html">
+                WEB<span class="studio-color">STUDIO</span>
+            </a>
 
-            <!-- menu nav -->
-
-            <ul>
-                <li><a href="">Studio</a>
+            <ul class="menu list">
+                <li class="header-item">
+                    <a class="link menu-link" href="./index.html">Studio</a>
                 </li>
-                <li><a href="">Portfolio</a>
+                <li class="header-item">
+                    <a class="link menu-link" href="./portfolio.html">Portfolio</a>
                 </li>
-                <li><a href="">Contacts</a>
+                <li class="header-item">
+                    <a class="link menu-link" href="./index.html">Contacts</a>
                 </li>
             </ul>
         </nav>
         <!-- tel mail -->
-        <address>
-            <ul>
-                <li>
-                    <a href="mailto:info@devstudio.com"> info@devstudio.com</a>
-                </li>
-                <li>
-                    <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-                </li>
-            </ul>
+        <address class="phone-mail">
+            <div class="address-phone-mail">
+                <ul class="menu-contacts list">
+                    <li class="contacts-item">
+                        <a class="contact-mail link" href="mailto:info@devstudio.com">
+                            info@devstudio.com</a>
+                    </li>
+
+                    <li class="contacts-item">
+                        <a class="contact-phone link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
+            </div>
         </address>
     </header>
 
     <main>
         <!-- hero image -->
-        <section>
-            <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
+        <section class="hero">
+            <h1 class="hero-title">Effective Solutions for Your Business</h1>
+            <button class="hero-button" type="button">Order Service</button>
         </section>
 
         <!-- Feature -->
         <section>
 
-            <h2>Feature</h2>
-            <ul>
+            <h2></h2>
+            <ul class="list">
                 <li>
-                    <h3>Strategy</h3>
+                    <h3 class="item-subtitle">Strategy</h3>
 
-                    <p> Our goal is to identify the business problem
+                    <p class="item-txt"> Our goal is to identify the business problem
                         to walk away with the perfect and creative solution.</p>
                 </li>
 
                 <li>
-                    <h3>Punctuality</h3>
+                    <h3 class="item-subtitle">Punctuality</h3>
 
-                    <p> Bring the key message to the brand's audience for
+                    <p class="item-txt"> Bring the key message to the brand's audience for
                         the best price within the shortest possible time.</p>
                 </li>
 
                 <li>
-                    <h3>Diligence</h3>
-                    <p> Research and confirm brands that present the strongest
+                    <h3 class="item-subtitle">Diligence</h3>
+                    <p class="item-txt"> Research and confirm brands that present the strongest
                         digital growth opportunities and minimize risk.</p>
                 </li>
 
                 <li>
-                    <h3>Technologies</h3>
+                    <h3 class="item-subtitle">Technologies</h3>
 
-                    <p> Design practice focused on digital experiences.
+                    <p class="item-txt"> Design practice focused on digital experiences.
                         We bring forth a deep passion for problem-solving.</p>
                 </li>
             </ul>
@@ -82,7 +104,7 @@
         <!-- action -->
         <section>
             <h2>What are we doing</h2>
-            <ul>
+            <ul class="list">
                 <li><img src="./images/img-1-opt.jpg" alt="monitor" width="360"></li>
                 <li><img src="./images/img-2-opt.jpg" alt="mobiles" width="360"></li>
                 <li><img src="./images/img-3-opt.jpg" alt="hand with phone" width="360"></li>
@@ -92,29 +114,29 @@
         <!-- Our Team -->
         <section>
             <h2>Our Team</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/mark-opt.jpg" alt="Mark Guerrero Product Designer" width="264">
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
+                    <h3 class="item-subtitle">Mark Guerrero</h3>
+                    <p class="item-txt">Product Designer</p>
                 </li>
 
                 <li>
                     <img src="./images/tom-opt.jpg" alt="Tom Ford Frontend Developer" width="264">
-                    <h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
+                    <h3 class="item-subtitle">Tom Ford</h3>
+                    <p class="item-txt">Frontend Developer</p>
                 </li>
 
                 <li>
                     <img src="./images/camila-opt.jpg" alt="Camila Garcia Marketing" width="264">
-                    <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
+                    <h3 class="item-subtitle">Camila Garcia</h3>
+                    <p class="item-txt">Marketing</p>
                 </li>
 
                 <li>
                     <img src="./images/daniel-opt.jpg" alt="Daniel Wilson UI Designer" width="264">
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
+                    <h3 class="item-subtitle">Daniel Wilson</h3>
+                    <p class="item-txt">UI Designer</p>
                 </li>
             </ul>
 
@@ -122,17 +144,20 @@
 
     </main>
 
-    <footer>
-        <!-- logo -->
-        <a href="./index.html">WebStudio</a>
+    <footer class="footer-content">
+        <div>
+            <!-- logo -->
+            <a class="logotype link" href="./index.html">
+                WEB<span class="studio-color-footer">STUDIO</span>
+            </a>
 
-        <!-- Increase -->
-        <p>
-            Increase the flow of customers and
-            sales for your business with digital
-            marketing & growth solutions.
-        </p>
-
+            <!-- Increase -->
+            <p class="item-txt">
+                Increase the flow of customers and
+                sales for your business with digital
+                marketing & growth solutions.
+            </p>
+        </div>
     </footer>
 
 </body>
