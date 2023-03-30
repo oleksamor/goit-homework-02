@@ -160,10 +160,20 @@ a {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
 }
 
+/**
+  |============================
+  | team
+  |============================
+*/
+
+.team {
+  background-color: var(--modal-overlay-color) #f4f4fd;
+}
 /* ====== thumba ========= */
 
 .item-subtitle {
@@ -199,13 +209,12 @@ a {
   color: #ffffff;
 }
 
-/* ========= /thumba ========= */
-
 /**
   |============================
   | Footer
   |============================
 */
+
 .footer-content {
   background: var(--dark-color);
 }
