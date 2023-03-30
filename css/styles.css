@@ -90,18 +90,6 @@ a {
 .menu-link:focus {
   color: var(--pressed-state-color);
 }
-.phone-mail {
-}
-.address-phone-mail {
-}
-.menu-contacts {
-}
-.contacts-item {
-}
-.contact-mail {
-}
-.contact-phone {
-}
 
 /**
   |============================
@@ -186,7 +174,7 @@ a {
 
 .item-txt {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
