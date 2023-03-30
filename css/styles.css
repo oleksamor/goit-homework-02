@@ -26,6 +26,7 @@ p {
 }
 
 body {
+  font-weight: 500;
   background-color: var(--white-background);
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
@@ -79,7 +80,7 @@ a {
 }
 
 .menu-link {
-  font-weight: 500px;
+  font-weight: 500;
   color: var(--dark-color);
 }
 
