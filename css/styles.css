@@ -57,14 +57,16 @@ a {
 .studio-color-footer {
   color: var(--modal-overlay-color);
 }
+
 .list {
   list-style: none;
 }
-.address-phone-mail {
+
+.phone-mail {
+  font-style: normal;
 }
 .contact-mail,
 .contact-phone {
-  font-style: normal;
   color: var(--text-color);
 }
 
@@ -157,15 +159,19 @@ a {
   visibility: hidden;
 }
 
-.footer-content {
-  background: var(--dark-color);
+/**
+  |============================
+  | action
+  |============================
+*/
+
+.action-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
 }
 
-.footer-text {
-  color: #ffffff;
-  /* text-align: center; */
-}
-/* ========= thumba ========= */
+/* ====== thumba ========= */
 .thumba {
 }
 .item-subtitle {
@@ -205,6 +211,13 @@ a {
 
 /**
   |============================
-  | etjukul
+  | Footer
   |============================
 */
+.footer-content {
+  background: var(--dark-color);
+}
+
+.footer-text {
+  color: var(--white-background); /* text-align: center; */
+}
