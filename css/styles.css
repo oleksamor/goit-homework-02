@@ -115,6 +115,15 @@ a {
   letter-spacing: 0.02em;
   color: var(--white-background);
 }
+/* .hero-title::first-letter {
+  font-family: "Tahoma", serif;
+  font-size: 56px;
+  color: #36f43f;
+}
+.hero-title::selection {
+  color: #ffffff;
+  background-color: #3f51b5;
+} */
 
 .hero-button {
   width: 169px;
@@ -130,6 +139,7 @@ a {
 }
 .footer-text {
   color: #ffffff;
+  /* text-align: center; */
 }
 /* ========= thumba ========= */
 .thumba {
