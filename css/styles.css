@@ -119,15 +119,6 @@ a {
   color: var(--white-background);
   text-align: center;
 }
-/* .hero-title::first-letter {
-  font-family: "Tahoma", serif;
-  font-size: 56px;
-  color: #36f43f;
-}
-.hero-title::selection {
-  color: #ffffff;
-  background-color: #3f51b5;
-} */
 
 .hero-button {
   font-weight: 500;
@@ -165,7 +156,7 @@ a {
   |============================
 */
 
-.action-title {
+.item-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -174,8 +165,7 @@ a {
 }
 
 /* ====== thumba ========= */
-.thumba {
-}
+
 .item-subtitle {
   font-weight: 500;
   font-size: 20px;
