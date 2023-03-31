@@ -162,6 +162,10 @@ a {
 .team {
   background-color: #f4f4fd;
 }
+
+.team-card {
+  background-color: #ffffff;
+}
 /* ====== thumba ========= */
 
 .item-subtitle {
