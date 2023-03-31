@@ -65,13 +65,12 @@ a {
 .phone-mail {
   font-style: normal;
 }
-.contact-mail,
-.contact-phone {
+.contact-phone-mail {
   color: var(--text-color);
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
+.contact-phone-mail:hover,
+.contact-phone-mail:focus {
   color: var(--pressed-state-color);
 }
 
